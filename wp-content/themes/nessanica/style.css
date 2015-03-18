@@ -1,0 +1,367 @@
+/*
+Theme Name: Nesanica - Marek Pankiewicz
+Author: e-webcreator.pl
+Author URI: http://e-webcreator.pl
+Description: Strona związana ze sprawami myśliwskimi, w tym podróżowaniem do nieznanych krain.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, white, light, one-column, two-columns, left-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images
+ 
+*/
+
+body {
+	color: #fff;
+	background: url(images/4.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+ul {
+	padding: 0;
+}
+#wrapper {
+	width: 1070px;
+	margin: 0 auto;
+	margin-top: 73px;
+	
+}
+
+nav#nav {
+	display:inline;
+}
+
+#nav {
+	position: relative;
+	background: url(images/wood2.jpg);
+	background-position: center;
+	height: 70px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px; 
+}
+
+#nav ul {
+	margin-left: 72px;
+}
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a{
+	padding: 10px;
+	font-size: 20px;
+	line-height: 70px;
+	color: #ede2d0;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+#slider {
+	background: #e9dabd url(images/deer.jpg) center no-repeat;
+	height: 312px;
+	border-top: 2px solid #4d2712;
+	border-bottom: 6px solid #4d2712;
+	border-right: 6px solid #714322;
+	border-left: 6px solid #714322;
+}
+
+
+#zawartosc {
+	width:960px;
+}
+#sidebar {
+	width: 35%;
+	float: left;
+	clear: both;
+}
+
+
+.box,
+#main-content {
+	padding-top: 40px;
+}
+
+.box h2 {
+	background: url(images/wood2.jpg);
+	background-position: center;
+	border-radius: 19px;
+	padding: 10px;
+	margin:0 13px;
+}
+
+.box ul {
+	padding:40px;
+	padding-top: 20px;
+}
+
+.box li {
+	padding: 10px;
+}
+.box a {
+	text-decoration: none;
+	color: black;
+}
+
+#main-content {
+	width: 60%;
+	float: right;
+}
+#welcome {
+	background: url(images/wood2.jpg);
+	background-position: center;
+	border-radius: 15px;
+	padding: 20px;
+	height: 148px;
+	color: #fff;
+	margin-right: 35px;
+
+	
+}
+
+#welcome h2 {
+	font-size: 24px;
+}
+
+#welcome p {
+	line-height: 23px;
+	margin-top: 29px;
+}
+#welcome h2 {
+	margin: 0 !important;
+}
+
+#welcome a {
+	float: right;
+	color: #fff;
+}
+
+#content {
+	margin-top: 16px;
+	color: black;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+#content h2 {
+	font-size: 31px;
+	margin-bottom: 32px;
+	margin-top: 38px;
+	text-align: center;
+}
+
+#content h3 {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+#content p {
+	font-family: "Gill Sans Extrabold",Helvetica,sans-serif;
+	color: rgba(0, 0, 0, 1);
+	line-height: 21px;
+	margin-top: 10px;
+}
+.post {
+	width: 50%;
+	float: left;
+}
+
+.post p {
+	padding: 5px;
+}
+
+.post a {
+	float: right;
+	color: black;
+	margin-right: 34px;
+}
+
+#footer {
+	color: black;
+	height: 50px;
+	
+}
+
+#footer p {
+	line-height: 50px;
+}
+
+#footer p, 
+#footer span {
+	float: right;
+	margin-bottom:100px;
+}
+
+#search {
+	line-height: 70px;
+	float:right;
+	margin-right: 28px;
+}
+
+#main-content {
+	padding-bottom:25px;
+}
+#main-content,
+#sidebar,
+#footer {
+	background: #e8dbbb;
+}
+
+#footer {
+	clear:both;
+	padding-right:20px;
+	background: url(images/wood2.jpg);
+	background-position: center;
+	color: #fff;
+	border-top:1px solid #4d2712;
+};
+
+#footer p {
+	float: right;
+}
+
+ul li {
+	list-style: none;
+}
+
+.zawartosc {
+	background: #e8dbbb;
+}
+
+.widgettitle {
+	text-align:center;
+}
+
+#sklep {
+	padding: 60px 60px;		
+}
+
+#onas,
+#kontakt,
+#galeria {
+	padding: 60px 60px;
+	line-height: 31px
+}
+
+#onas h2,
+#kontakt h2,
+#galeria h2,
+#sklep h2{
+	}
+
+.page-title {
+	font-size: 39px;
+	text-align: center;
+	position: relative;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 60px;
+
+}
+
+
+.h-right {
+	position:absolute;
+	right: 276px;
+	bottom: -9px;
+}
+
+.h-left {
+	position:absolute;
+	left: 276px;
+	bottom: -9px;
+}
+
+.page-title img{
+	width: 13%;
+}
+
+#kontakt p {
+	font-size: 20px;
+	color: rgb(63, 63, 63);
+	padding: 0 40px;
+	line-height: 43px;
+	text-align: center;
+	font-family: "Papyrus",sans-serif;
+}
+
+#onas p {
+	color: rgb(63, 63, 63);
+	padding: 0 60px;
+
+}
+
+.bwg_standart_thumb_0 {
+	margin: 10px;
+	padding:1px;
+	background: #fff;
+}
+
+.bwg_standart_thumb_0 span {
+	border: 1px solid black;
+}
+
+#bwg_container1_0 {
+	padding: 29px;
+}
+
+img {
+  vertical-align: middle;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+#sklep > pre:nth-child(even){
+	float: right;
+}
+
+#sklep pre {
+	white-space: normal !important;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+
+.wp_cart_product_display_box{
+	margin-left: 115px;
+	margin-right: 116px;
+}
+
+.wp_cart_product_thumbnail img{
+	min-height: 300px;
+	max-height: 300px;
+}
